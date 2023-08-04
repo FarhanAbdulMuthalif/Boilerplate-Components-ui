@@ -26,7 +26,6 @@ const DialogShow = () => {
       <SimpleDialog
         open={isOpen}
         onClose={DialogOpenHandler}
-        onSubmit={DialogOpenHandler}
         content=" Let Google help apps determine location. This means sending anonymous
       location data to Google, even when no apps are running."
       />

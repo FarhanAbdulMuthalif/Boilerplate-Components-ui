@@ -37,7 +37,7 @@ const CheckboxDropdown = ({
       {options.map((data: string) => {
         return (
           <MenuItem key={data} value={data}>
-            <Checkbox checked={DwValue.indexOf(data) > -1} />
+            <Checkbox size="small" checked={DwValue.indexOf(data) > -1} />
             <ListItemText primary={data} />
           </MenuItem>
         );

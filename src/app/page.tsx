@@ -70,8 +70,8 @@ export default function Home() {
           <BasicTooltip title="Basic type tooltip for check">
             <OutlineButton>Basic Tooltip</OutlineButton>
           </BasicTooltip>
-          <LightTooltip title="Light type tooltip for check">
-            <OutlineButton>Light Tooltip</OutlineButton>
+          <LightTooltip title="Color type tooltip for check">
+            <OutlineButton>Color Tooltip</OutlineButton>
           </LightTooltip>
         </div>
       </div>

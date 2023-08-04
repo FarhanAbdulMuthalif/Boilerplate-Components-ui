@@ -16,17 +16,17 @@ const SimpleDialog = ({
   onSubmit,
 }: SimpleDialogProps) => {
   return (
-    <Dialog open={open}>
+    <Dialog open={open} onBlur={onClose}>
       <DialogTitle id="alert-dialog-title">
         {"Use Google's location service?"}
       </DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-description">
-         {content}
+          {content}
         </DialogContentText>
         <DialogActions>
           <OutlineButton onClick={onClose}>Disagree</OutlineButton>
-          <FillButton onClick={onSubmit}>Agree</FillButton>
+          <FillButton onClick={onClose}>Agree</FillButton>
         </DialogActions>
       </DialogContent>
     </Dialog>
