@@ -16,7 +16,7 @@ const SimpleDialog = ({
   onSubmit,
 }: SimpleDialogProps) => {
   return (
-    <Dialog open={open} onBlur={onClose}>
+    <Dialog open={open}>
       <DialogTitle id="alert-dialog-title">
         {"Use Google's location service?"}
       </DialogTitle>

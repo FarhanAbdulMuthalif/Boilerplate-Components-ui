@@ -12,7 +12,7 @@ import FillButton from "../Button/FillButton";
 
 const FormDialog = ({ open, content, onClose, onSubmit }: FormDialogProps) => {
   return (
-    <Dialog open={open} onBlur={onClose}>
+    <Dialog open={open}>
       <DialogTitle id="alert-dialog-title">{"Open form dialog"}</DialogTitle>
       <DialogContent>
         <DialogContentText id="alert-dialog-description">

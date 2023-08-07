@@ -12,6 +12,7 @@ import MultiDropdown from "@/components/Dropdown/MultiDropdown";
 import DialogShow from "@/components/TryDialog";
 import SearchDropdown from "@/components/Dropdown/SearchDropdown";
 import CheckboxDropdown from "@/components/Dropdown/CheckboxDropdown";
+import FileUpload from "@/components/TryAnot";
 
 export default function Home() {
   return (
@@ -73,6 +74,12 @@ export default function Home() {
           <LightTooltip title="Color type tooltip for check">
             <OutlineButton>Color Tooltip</OutlineButton>
           </LightTooltip>
+        </div>
+      </div>
+      <div className="comp-wrapper-div">
+        <legend>FileUpload</legend>
+        <div className="fieldset">
+          <FileUpload />
         </div>
       </div>
 
