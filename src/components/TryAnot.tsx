@@ -46,6 +46,7 @@ const FileUpload: React.FC = () => {
       setPreviewURLs(previewURLsArray);
     }
   }, []);
+  console.log("hello");
 
   return (
     <div
@@ -53,7 +54,7 @@ const FileUpload: React.FC = () => {
       onDragOver={handleDragOver}
       onDrop={handleDrop}
     >
-      <label htmlFor="file-input" className="upload-label" >
+      <label htmlFor="file-input" className="upload-label">
         {previewURLs.length > 0
           ? `${previewURLs.length} files selected`
           : "Choose files or drag them here"}
